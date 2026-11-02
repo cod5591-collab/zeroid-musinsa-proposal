@@ -520,7 +520,7 @@ footer{background:transparent;color:var(--mute);border:0;text-align:center}
       <span class="chip">2026. 10</span><span class="chip">실습용 · <u>밑줄 수치</u>는 가정치</span>
     </div>
   </div>
-  <div class="visual"><img src="http://cdn.neopharmshop.co.kr/images/detail/brand_zeroid/soothing_gelcream/top_soothing_gelcream.jpg" alt="제로이드 수딩 젤 크림"></div>
+  <div class="visual"><img src="https://cdn.neopharmshop.co.kr/images/detail/brand_zeroid/soothing_gelcream/top_soothing_gelcream.jpg" alt="제로이드 수딩 젤 크림"></div>
   </div>
 </header>
 
@@ -1008,7 +1008,7 @@ const LINES=[
 const img=f=>f.startsWith('http')?f:Z+'/data/rental/brand/'+f;
 const byIdx={};LINES.forEach(l=>l.p.forEach(p=>byIdx[p[0]]={n:p[1],d:p[2],i:img(p[3]),c:l.c,k:l.k}));
 // 더마뉴얼 클렌징 젤 썸네일은 상세 상단 이미지로 대체
-byIdx[334].i='http://cdn.neopharmshop.co.kr/images/detail/brand_zeroid/dermanewal_CleansingGel_200ml/dermanewalCleansingGel200ml_top.jpg';
+byIdx[334].i='https://cdn.neopharmshop.co.kr/images/detail/brand_zeroid/dermanewal_CleansingGel_200ml/dermanewalCleansingGel200ml_top.jpg';
 LINES[4].p[0][3]=byIdx[334].i;
 
 document.getElementById('lines').innerHTML=LINES.map(l=>`
